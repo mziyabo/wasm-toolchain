@@ -23,6 +23,7 @@ RUN echo "## Install prerequisites"; \
 
 ENV PATH "$PATH:/emsdk/node/12.9.1_64bit/bin:/emsdk/upstream/bin:/emsdk/upstream/emscripten:/emsdk/upstream;" 
 
+WORKDIR /target
 # ------------------------------------------------------------------------------
 
 LABEL maintainer="mziyabo" \
